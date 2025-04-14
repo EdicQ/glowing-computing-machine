@@ -9,7 +9,11 @@
   },
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "git+https://github.com/EdicQ/glowing-computing-machine.git"
+=======
+    "url": "https://github.com/EdicQ/glowing-computing-machine.git"
+>>>>>>> 1dae111b92f559f450005ec88d8406df7f168add
   },
   "keywords": [],
   "author": "",
