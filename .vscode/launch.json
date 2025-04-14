@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python Debugger: Module",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "${input:moduleName}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python Debugger: Django",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "manage.py",
+            "args": ["runserver"],
+            "console": "integratedTerminal"
+        },
+        {
+            // Use IntelliJ IDEA's built-in Java debugger
+            // For more information, visit: https://www.jetbrains.com/help/idea/debugging-java-applications.html
+            // This configuration is for debugging Java applications in IntelliJ IDEA.
+            // It uses the built-in Java debugger of IntelliJ IDEA.
+            // You can customize it according to your needs.
+        },
+        {
+            // Use Visual Studio Code's built-in Java debugger
+            // For more information, visit: https://code.visualstudio.com/docs/java/java-debugging
+            // This configuration is for debugging Java applications in Visual Studio Code.
+            // It uses the built-in Java debugger of Visual Studio Code.
+            // You can customize it according to your needs.
+        },
+        {
+            // Use Eclipse's built-in Java debugger
+            // For more information, visit: https://www.eclipse.org/community/eclipse_newsletter/2020/june/JavaDebugging.php
+            // This configuration is for debugging Java applications in Eclipse.
+            // It uses the built-in Java debugger of Eclipse.
+            // You can customize it according to your needs.
+        },
+        {
+            "type": "java",
+            "name": "Launch Java App",
+            "request": "launch",
+            "mainClass": "${file}",
+            "projectName": "${workspaceFolder}"
+        },
+        {
+            "type": "jdk",
+            "request": "launch",
+            "name": "Launch Java App"
+        }
+    ]
+}
